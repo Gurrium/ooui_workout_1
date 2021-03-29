@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E343EFAC2612121400A21CB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E343EFAB2612121400A21CB0 /* AppDelegate.swift */; };
-		E343EFAE2612121400A21CB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E343EFAD2612121400A21CB0 /* SceneDelegate.swift */; };
 		E343EFB02612121400A21CB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E343EFAF2612121400A21CB0 /* ViewController.swift */; };
 		E343EFB32612121400A21CB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E343EFB12612121400A21CB0 /* Main.storyboard */; };
 		E343EFB52612121400A21CB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E343EFB42612121400A21CB0 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		E343EFA82612121400A21CB0 /* ooui_workout_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ooui_workout_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E343EFAB2612121400A21CB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E343EFAD2612121400A21CB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E343EFAF2612121400A21CB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E343EFB22612121400A21CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E343EFB42612121400A21CB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				E343EFAB2612121400A21CB0 /* AppDelegate.swift */,
-				E343EFAD2612121400A21CB0 /* SceneDelegate.swift */,
 				E343EFAF2612121400A21CB0 /* ViewController.swift */,
 				E343EFB12612121400A21CB0 /* Main.storyboard */,
 				E343EFB42612121400A21CB0 /* Assets.xcassets */,
@@ -139,7 +136,6 @@
 			files = (
 				E343EFB02612121400A21CB0 /* ViewController.swift in Sources */,
 				E343EFAC2612121400A21CB0 /* AppDelegate.swift in Sources */,
-				E343EFAE2612121400A21CB0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "gurrium.ooui-workout-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "gurrium.ooui-workout-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
