@@ -14,6 +14,8 @@
 		E3490803261827E500226680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3490801261827E500226680 /* LaunchScreen.storyboard */; };
 		E349080F26182A3600226680 /* MemoNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349080E26182A3600226680 /* MemoNavigationViewController.swift */; };
 		E349081226182ADA00226680 /* MemoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349081126182ADA00226680 /* MemoCollectionViewController.swift */; };
+		E37625C62618A59200D8F2B4 /* MemoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37625C42618A59200D8F2B4 /* MemoCollectionViewCell.swift */; };
+		E37625C72618A59200D8F2B4 /* MemoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37625C52618A59200D8F2B4 /* MemoCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E3490804261827E500226680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E349080E26182A3600226680 /* MemoNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoNavigationViewController.swift; sourceTree = "<group>"; };
 		E349081126182ADA00226680 /* MemoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCollectionViewController.swift; sourceTree = "<group>"; };
+		E37625C42618A59200D8F2B4 /* MemoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E37625C52618A59200D8F2B4 /* MemoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemoCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E34907FC261827E300226680 /* Main.storyboard */,
 				E349080E26182A3600226680 /* MemoNavigationViewController.swift */,
 				E349081126182ADA00226680 /* MemoCollectionViewController.swift */,
+				E37625C42618A59200D8F2B4 /* MemoCollectionViewCell.swift */,
+				E37625C52618A59200D8F2B4 /* MemoCollectionViewCell.xib */,
 				E34907FF261827E500226680 /* Assets.xcassets */,
 				E3490801261827E500226680 /* LaunchScreen.storyboard */,
 				E3490804261827E500226680 /* Info.plist */,
@@ -127,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37625C72618A59200D8F2B4 /* MemoCollectionViewCell.xib in Resources */,
 				E3490803261827E500226680 /* LaunchScreen.storyboard in Resources */,
 				E3490800261827E500226680 /* Assets.xcassets in Resources */,
 				E34907FE261827E300226680 /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37625C62618A59200D8F2B4 /* MemoCollectionViewCell.swift in Sources */,
 				E349080F26182A3600226680 /* MemoNavigationViewController.swift in Sources */,
 				E34907FB261827E300226680 /* ViewController.swift in Sources */,
 				E349081226182ADA00226680 /* MemoCollectionViewController.swift in Sources */,

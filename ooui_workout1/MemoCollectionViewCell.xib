@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MemoCollectionViewCell" id="gTV-IL-0wX" customClass="MemoCollectionViewCell" customModule="ooui_workout1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="445" height="94"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="445" height="94"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="doc.text" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4py-JB-iM6">
+                        <rect key="frame" x="0.0" y="0.5" width="43" height="93.5"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
+                            <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                        </preferredSymbolConfiguration>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QQT-BI-Y9Z">
+                        <rect key="frame" x="432.5" y="2" width="12.5" height="90.5"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        </preferredSymbolConfiguration>
+                    </imageView>
+                    <view contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="LX2-dS-l2O">
+                        <rect key="frame" x="51" y="0.0" width="377.5" height="94"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="いいいいいいいいいいいいいいいいいいいいいいいいいい" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Buv-Vm-WyI">
+                                <rect key="frame" x="0.0" y="12" width="377.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="749" text="aaaaaaaああああああああああああああああああああああああああああ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Pf-4c-znK">
+                                <rect key="frame" x="0.0" y="50.5" width="377.5" height="39.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Pf-4c-znK" firstAttribute="leading" secondItem="LX2-dS-l2O" secondAttribute="leading" id="4su-kK-ned"/>
+                            <constraint firstAttribute="trailing" secondItem="6Pf-4c-znK" secondAttribute="trailing" id="9Oa-YP-k6V"/>
+                            <constraint firstAttribute="trailing" secondItem="Buv-Vm-WyI" secondAttribute="trailing" id="HIs-4e-eTz"/>
+                            <constraint firstItem="Buv-Vm-WyI" firstAttribute="leading" secondItem="LX2-dS-l2O" secondAttribute="leading" id="JTB-By-B5e"/>
+                            <constraint firstAttribute="bottom" secondItem="6Pf-4c-znK" secondAttribute="bottom" constant="4" id="ZAv-eF-1vQ"/>
+                            <constraint firstItem="6Pf-4c-znK" firstAttribute="top" secondItem="Buv-Vm-WyI" secondAttribute="bottom" constant="12" id="bsE-RC-BZO"/>
+                            <constraint firstItem="Buv-Vm-WyI" firstAttribute="top" secondItem="LX2-dS-l2O" secondAttribute="top" constant="12" id="xKe-kb-hTW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="LX2-dS-l2O" firstAttribute="leading" secondItem="4py-JB-iM6" secondAttribute="trailing" constant="8" id="Fzv-dZ-3Rf"/>
+                <constraint firstAttribute="bottom" secondItem="LX2-dS-l2O" secondAttribute="bottom" id="TqJ-kf-6ne"/>
+                <constraint firstItem="4py-JB-iM6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VqQ-td-3Ho"/>
+                <constraint firstItem="LX2-dS-l2O" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Xo5-GA-63y"/>
+                <constraint firstItem="QQT-BI-Y9Z" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ae7-lB-pHt"/>
+                <constraint firstAttribute="bottom" secondItem="QQT-BI-Y9Z" secondAttribute="bottom" id="f9g-d8-8zl"/>
+                <constraint firstItem="4py-JB-iM6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="g3K-ko-1ii"/>
+                <constraint firstItem="QQT-BI-Y9Z" firstAttribute="leading" secondItem="LX2-dS-l2O" secondAttribute="trailing" constant="4" id="q0c-Lx-xZF"/>
+                <constraint firstAttribute="bottom" secondItem="4py-JB-iM6" secondAttribute="bottom" id="rGe-v0-apB"/>
+                <constraint firstAttribute="trailing" secondItem="QQT-BI-Y9Z" secondAttribute="trailing" id="xFb-jh-Cuk"/>
+            </constraints>
+            <size key="customSize" width="445" height="94"/>
+            <connections>
+                <outlet property="contentLabel" destination="6Pf-4c-znK" id="7l8-uU-uB3"/>
+                <outlet property="titleLabel" destination="Buv-Vm-WyI" id="X3K-1m-Fjn"/>
+            </connections>
+            <point key="canvasLocation" x="422.46376811594206" y="118.52678571428571"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="96" height="128"/>
+        <image name="doc.text" catalog="system" width="115" height="128"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

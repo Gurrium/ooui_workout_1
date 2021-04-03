@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Collection View Controller-->
+        <!--メモ一覧-->
         <scene sceneID="p0m-ch-Vnw">
             <objects>
-                <collectionViewController id="Qkv-hT-CMK" sceneMemberID="viewController">
+                <collectionViewController id="Qkv-hT-CMK" customClass="MemoCollectionViewController" customModule="ooui_workout1" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="8sJ-e0-pDc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,7 +37,7 @@
                             <outlet property="delegate" destination="Qkv-hT-CMK" id="S6O-3P-vh2"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="Tmc-OR-uqa"/>
+                    <navigationItem key="navigationItem" title="メモ一覧" id="Tmc-OR-uqa"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="063-QD-ZgX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
