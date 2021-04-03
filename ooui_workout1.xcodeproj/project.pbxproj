@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E343EFAC2612121400A21CB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E343EFAB2612121400A21CB0 /* AppDelegate.swift */; };
-		E343EFB02612121400A21CB0 /* TopNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E343EFAF2612121400A21CB0 /* TopNavigationViewController.swift */; };
-		E343EFB32612121400A21CB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E343EFB12612121400A21CB0 /* Main.storyboard */; };
-		E343EFB52612121400A21CB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E343EFB42612121400A21CB0 /* Assets.xcassets */; };
-		E343EFB82612121400A21CB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E343EFB62612121400A21CB0 /* LaunchScreen.storyboard */; };
-		E343F0D926121E2800A21CB0 /* MemoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E343F0D826121E2800A21CB0 /* MemoCollectionViewController.swift */; };
+		E34907F7261827E300226680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34907F6261827E300226680 /* AppDelegate.swift */; };
+		E34907FB261827E300226680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34907FA261827E300226680 /* ViewController.swift */; };
+		E34907FE261827E300226680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34907FC261827E300226680 /* Main.storyboard */; };
+		E3490800261827E500226680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34907FF261827E500226680 /* Assets.xcassets */; };
+		E3490803261827E500226680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3490801261827E500226680 /* LaunchScreen.storyboard */; };
+		E349080F26182A3600226680 /* MemoNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349080E26182A3600226680 /* MemoNavigationViewController.swift */; };
+		E349081226182ADA00226680 /* MemoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349081126182ADA00226680 /* MemoCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E343EFA82612121400A21CB0 /* ooui_workout_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ooui_workout_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E343EFAB2612121400A21CB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E343EFAF2612121400A21CB0 /* TopNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationViewController.swift; sourceTree = "<group>"; };
-		E343EFB22612121400A21CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E343EFB42612121400A21CB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E343EFB72612121400A21CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E343EFB92612121400A21CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E343F0D826121E2800A21CB0 /* MemoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCollectionViewController.swift; sourceTree = "<group>"; };
+		E34907F3261827E300226680 /* ooui_workout1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ooui_workout1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34907F6261827E300226680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E34907FA261827E300226680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E34907FD261827E300226680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E34907FF261827E500226680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3490802261827E500226680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3490804261827E500226680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E349080E26182A3600226680 /* MemoNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoNavigationViewController.swift; sourceTree = "<group>"; };
+		E349081126182ADA00226680 /* MemoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E343EFA52612121400A21CB0 /* Frameworks */ = {
+		E34907F0261827E300226680 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,71 +39,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E343EF9F2612121400A21CB0 = {
+		E34907EA261827E300226680 = {
 			isa = PBXGroup;
 			children = (
-				E343EFAA2612121400A21CB0 /* ooui_workout_1 */,
-				E343EFA92612121400A21CB0 /* Products */,
+				E34907F5261827E300226680 /* ooui_workout1 */,
+				E34907F4261827E300226680 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E343EFA92612121400A21CB0 /* Products */ = {
+		E34907F4261827E300226680 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E343EFA82612121400A21CB0 /* ooui_workout_1.app */,
+				E34907F3261827E300226680 /* ooui_workout1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E343EFAA2612121400A21CB0 /* ooui_workout_1 */ = {
+		E34907F5261827E300226680 /* ooui_workout1 */ = {
 			isa = PBXGroup;
 			children = (
-				E343EFAB2612121400A21CB0 /* AppDelegate.swift */,
-				E343EFAF2612121400A21CB0 /* TopNavigationViewController.swift */,
-				E343F0D826121E2800A21CB0 /* MemoCollectionViewController.swift */,
-				E343EFB12612121400A21CB0 /* Main.storyboard */,
-				E343EFB42612121400A21CB0 /* Assets.xcassets */,
-				E343EFB62612121400A21CB0 /* LaunchScreen.storyboard */,
-				E343EFB92612121400A21CB0 /* Info.plist */,
+				E34907F6261827E300226680 /* AppDelegate.swift */,
+				E34907FA261827E300226680 /* ViewController.swift */,
+				E34907FC261827E300226680 /* Main.storyboard */,
+				E349080E26182A3600226680 /* MemoNavigationViewController.swift */,
+				E349081126182ADA00226680 /* MemoCollectionViewController.swift */,
+				E34907FF261827E500226680 /* Assets.xcassets */,
+				E3490801261827E500226680 /* LaunchScreen.storyboard */,
+				E3490804261827E500226680 /* Info.plist */,
 			);
-			path = ooui_workout_1;
+			path = ooui_workout1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E343EFA72612121400A21CB0 /* ooui_workout_1 */ = {
+		E34907F2261827E300226680 /* ooui_workout1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E343EFBC2612121400A21CB0 /* Build configuration list for PBXNativeTarget "ooui_workout_1" */;
+			buildConfigurationList = E3490807261827E500226680 /* Build configuration list for PBXNativeTarget "ooui_workout1" */;
 			buildPhases = (
-				E343EFA42612121400A21CB0 /* Sources */,
-				E343EFA52612121400A21CB0 /* Frameworks */,
-				E343EFA62612121400A21CB0 /* Resources */,
+				E34907EF261827E300226680 /* Sources */,
+				E34907F0261827E300226680 /* Frameworks */,
+				E34907F1261827E300226680 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ooui_workout_1;
-			productName = ooui_workout_1;
-			productReference = E343EFA82612121400A21CB0 /* ooui_workout_1.app */;
+			name = ooui_workout1;
+			productName = ooui_workout1;
+			productReference = E34907F3261827E300226680 /* ooui_workout1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E343EFA02612121400A21CB0 /* Project object */ = {
+		E34907EB261827E300226680 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					E343EFA72612121400A21CB0 = {
+					E34907F2261827E300226680 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = E343EFA32612121400A21CB0 /* Build configuration list for PBXProject "ooui_workout_1" */;
+			buildConfigurationList = E34907EE261827E300226680 /* Build configuration list for PBXProject "ooui_workout1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +112,56 @@
 				en,
 				Base,
 			);
-			mainGroup = E343EF9F2612121400A21CB0;
-			productRefGroup = E343EFA92612121400A21CB0 /* Products */;
+			mainGroup = E34907EA261827E300226680;
+			productRefGroup = E34907F4261827E300226680 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E343EFA72612121400A21CB0 /* ooui_workout_1 */,
+				E34907F2261827E300226680 /* ooui_workout1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E343EFA62612121400A21CB0 /* Resources */ = {
+		E34907F1261827E300226680 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E343EFB82612121400A21CB0 /* LaunchScreen.storyboard in Resources */,
-				E343EFB52612121400A21CB0 /* Assets.xcassets in Resources */,
-				E343EFB32612121400A21CB0 /* Main.storyboard in Resources */,
+				E3490803261827E500226680 /* LaunchScreen.storyboard in Resources */,
+				E3490800261827E500226680 /* Assets.xcassets in Resources */,
+				E34907FE261827E300226680 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E343EFA42612121400A21CB0 /* Sources */ = {
+		E34907EF261827E300226680 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E343F0D926121E2800A21CB0 /* MemoCollectionViewController.swift in Sources */,
-				E343EFB02612121400A21CB0 /* TopNavigationViewController.swift in Sources */,
-				E343EFAC2612121400A21CB0 /* AppDelegate.swift in Sources */,
+				E349080F26182A3600226680 /* MemoNavigationViewController.swift in Sources */,
+				E34907FB261827E300226680 /* ViewController.swift in Sources */,
+				E349081226182ADA00226680 /* MemoCollectionViewController.swift in Sources */,
+				E34907F7261827E300226680 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E343EFB12612121400A21CB0 /* Main.storyboard */ = {
+		E34907FC261827E300226680 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E343EFB22612121400A21CB0 /* Base */,
+				E34907FD261827E300226680 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E343EFB62612121400A21CB0 /* LaunchScreen.storyboard */ = {
+		E3490801261827E500226680 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E343EFB72612121400A21CB0 /* Base */,
+				E3490802261827E500226680 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E343EFBA2612121400A21CB0 /* Debug */ = {
+		E3490805261827E500226680 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		E343EFBB2612121400A21CB0 /* Release */ = {
+		E3490806261827E500226680 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,36 +285,36 @@
 			};
 			name = Release;
 		};
-		E343EFBD2612121400A21CB0 /* Debug */ = {
+		E3490808261827E500226680 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ooui_workout_1/Info.plist;
+				INFOPLIST_FILE = ooui_workout1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "gurrium.ooui-workout-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ooui-workout1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		E343EFBE2612121400A21CB0 /* Release */ = {
+		E3490809261827E500226680 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ooui_workout_1/Info.plist;
+				INFOPLIST_FILE = ooui_workout1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "gurrium.ooui-workout-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ooui-workout1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -320,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E343EFA32612121400A21CB0 /* Build configuration list for PBXProject "ooui_workout_1" */ = {
+		E34907EE261827E300226680 /* Build configuration list for PBXProject "ooui_workout1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E343EFBA2612121400A21CB0 /* Debug */,
-				E343EFBB2612121400A21CB0 /* Release */,
+				E3490805261827E500226680 /* Debug */,
+				E3490806261827E500226680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E343EFBC2612121400A21CB0 /* Build configuration list for PBXNativeTarget "ooui_workout_1" */ = {
+		E3490807261827E500226680 /* Build configuration list for PBXNativeTarget "ooui_workout1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E343EFBD2612121400A21CB0 /* Debug */,
-				E343EFBE2612121400A21CB0 /* Release */,
+				E3490808261827E500226680 /* Debug */,
+				E3490809261827E500226680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E343EFA02612121400A21CB0 /* Project object */;
+	rootObject = E34907EB261827E300226680 /* Project object */;
 }
